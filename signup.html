@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mes todos listes</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<h1 class="text-center mt-5">Inscription</h1>
+		<div class="js-alert"></div>
+		
+		<form id="inscription">
+		  <div class="inscription_form">
+		  	<div class="row">
+			    <div class="offset-md-2 col-md-8">
+			      <label for="validationServer01">Nom</label>
+			      <input type="text" class="form-control is-invalid check_validate" name="validationServer01" id="validationServer01" placeholder="Nom" >
+			    </div>
+			    <div class="offset-md-2 col-md-8">
+			      <label for="validationServer02">Prénom</label>
+			      <input type="text" class="form-control is-invalid check_validate " id="validationServer02" placeholder="Prénom" >
+			    </div>
+			</div>
+			<div class="row">
+			    <div class="offset-md-2 col-md-8">
+			      <label for="validationServerUsername">Email</label>
+			      <div class="input-group">
+			        <input type="email" class="form-control is-invalid check_validate" id="validationServerUsername" placeholder="Email" >
+			      </div>
+			    </div>
+		    </div>
+		    <div class="row">
+		    	<div class="offset-md-2 col-md-8">
+			    	<label for="validationServerUsername">Login</label>
+			      <div class="input-group">
+			        <input type="text" class="form-control is-invalid check_validate" id="validationServerLogin" placeholder="Login" aria-describedby="inputGroupPrepend3" required>
+			      </div>
+		 		</div>
+	    		<div class="offset-md-2 col-md-8">
+			      <label for="validationServerPassword">mot de passe</label>
+			      <div class="input-group">
+			        <input type="password" class="form-control is-invalid check_validate" id="validationServerPassword" placeholder="mot de passe"  >
+			      </div>
+		    	</div>
+			     <div class="offset-md-2 col-md-8">
+			      <label for="validationServerPassword">Confirmer le mot de passe</label>
+			      <div class="input-group">
+			        <input type="password" class="form-control is-invalid check_validate" id="validationServerConfirm" placeholder="Confirmer le mot de passe" >
+			      </div>
+			    </div>
+			    <div class="col-md-12 has_improper"></div>
+		    </div>
+		  </div>
+	  	 <div class="text-center">
+			  <button class="btn btn-primary" href="#" type="submit">S'inscrire</button>
+			  <a class="btn btn-success" href="#" id="form_login">Se connecter</a>
+	  	</div>
+		</form>
+
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

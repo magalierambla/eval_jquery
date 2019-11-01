@@ -1,0 +1,109 @@
+/*.MES-LISTES {
+    
+    flex-direction : column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#resultat, #register {
+    
+    background-color : lightblue;
+    width : 300px;
+    height : 300px;
+}*/
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+label, h1 {
+    color: white
+}
+
+.button {
+    background-color : navy;
+    color : white;
+    width : 100%;
+    
+    box-shadow : 5px 5px 10px lightgray;
+    box-sizing : border-box;
+    text-align : center;
+    border-radius : 5px;
+    font-weight : bold;
+}
+
+/*input {
+    width : 45%;
+    font-size : 18px;
+    height : 20px;
+    margin-bottom : 15px;
+    
+}*/
+
+h3 {
+    background-color : navy;
+    border : 1px solid black;
+    border-radius : 5px;
+    color : white;
+    padding : 5px;
+    margin : 0px;
+    margin-top : 10px;
+}
+
+ul {
+    background-color : lightblue;
+    border : 1px solid black;
+    border-radius : 5px;
+    color : black;
+    padding : 10px;
+    margin : 0;
+    list-style-type : none;
+}
+
+.toDoElement {
+    display: grid;
+    grid-template-columns: 349px 10px;
+    align-items: center;
+}
+
+.wrong {
+    transform : scale(1.1);
+    transition : 1s;
+    border : 1px red solid;
+}
+
+.valid {
+    background-color: cadetblue;
+    /*border-radius: 20px;*/
+}
+
+.icon_trash {
+    color: red;
+    font-size: 23px;
+    margin-left: 5px;
+}
+        
+.plus_square {
+    font-size: 23px;
+    color: white;
+}
+.new_list {
+    width: 23.2em;
+}
+.add_element {
+    background: cadetblue;
+}
+.add_new_list {
+    margin-left: 32px;
+    margin-top: 25px;
+}
+input.add_new_list {
+    width: 23em;
+}
+.form-control.is-invalid.force_valid {
+    border-color: chartreuse;
+}
+.inscription_form {
+    margin: 30px 20% !important;
+}
